@@ -1,0 +1,251 @@
+/* Montserrat Font  font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Days one  font-family: 'Days One', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+html
+{
+    position: relative;
+}
+:root {
+    --background: #10002B;
+    --purple-pale: #C4B4D2;
+    --purple: #240046;
+    --btn-purple: #765297;
+    --days: 'Days One', sans-serif;
+    --montse: 'Montserrat', sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--montse);
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: var(--days);
+}
+
+.btn {
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    background: var(--purple);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+    transition: .5s ease-in-out;
+    color: #fff;
+    background-color: #3C096C;
+}
+
+/* Header styles  */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--background);
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    
+    
+}
+
+.logo h1 {
+    font-family: var(--days);
+    background: linear-gradient(180deg, #3C096C 0%, #9D4EDD 51.04%, rgba(224, 170, 255, 0) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 60px;
+}
+
+.nav-container {
+    margin-right: 60px;
+}
+
+nav a {
+    color: #f3f3f3;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 500;
+}
+
+a:hover {
+    color: var(--purple-pale);
+    transition: .5s ease-in-out;
+}
+
+/* Cart container */
+.cart-container{
+    background: var(--purple-pale);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cart-container h2{
+    font-family: var(--montse);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+hr{
+    border: 1px solid #10002B;
+    margin-bottom: 15px;
+}
+.cart-product-container{
+    display: flex;
+}
+
+.cart-info{
+    width: 90%;
+    margin: 0 auto;
+    margin: 0 1rem;
+    line-height: 30px;
+}
+.cart-info h3{
+    font-family: var(--montse);
+    font-weight: 600;
+}
+.cart-info-heading{
+    display: flex;
+    
+}
+.cart-info-h3{
+    margin-right: 20rem;
+}
+.cart-info-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-info-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cart-buttons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cart-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart{
+    height: 600px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container { 
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 120px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    /* background-color: wheat ; */
+
+}
+
+.footer-logo {
+    font-size: 25px;
+    text-decoration: none;
+    background: linear-gradient(180deg, #3C096C 0%, #9D4EDD 51.04%, rgba(224, 170, 255, 0) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-right: 1rem;
+}
+
+.footer-link {
+    color: #f3f3f3;
+    margin: 0 .5rem;
+    font-size: 22.5px;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+.footer-link:hover {
+    background-color: #240046;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: var(--montse);
+    color: #f3f3f3;
+    width: 500px;
+    margin-right: 60px;
+}
+
+.footer-info h3 {
+    font-family: var(--montse);
+    color: #f3f3f3;
+}
+
+.footer-info p {
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 26px;
+}
+
+.location,
+.phone,
+.schedule {
+    width: 250px;
+    margin-right: 20px;
+}
+
+
+
+/* PRODUCT  */
