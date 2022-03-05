@@ -4,7 +4,9 @@
 
 ## Esta es mi solución a la kata HTML de la semana 2 de LaunchX
 
-1. [Resultado]()
+### Solo es vista de escritorio
+
+1. [Resultado](https://jhosiangtz.github.io/LaunchX-Semana-2-Html/)
 2. [Capturas](images/screenshots/)
 3. [Diseño UI](images/UI-pastel.pdf)
 
