@@ -7,8 +7,9 @@
 ### Solo es vista de escritorio
 
 1. [Resultado](https://jhosiangtz.github.io/LaunchX-Semana-2-Html/)
-2. [Capturas](images/screenshots/)
-3. [Diseño UI](images/UI-pastel.pdf)
+2. [Vista del Panadero](https://jhosiangtz.github.io/LaunchX-Semana-2-Html/panadero.html)
+3. [Capturas](images/screenshots/)
+4. [Diseño UI](images/UI-pastel.pdf)
 
 ## Capturas de pantalla
 
@@ -29,3 +30,6 @@ Personalizar Producto
 
 Carrito De Compras
 ![alt](images/screenshots/Cart.png)
+
+Vista del panadero
+![alt](images/screenshots/Panadero.png)

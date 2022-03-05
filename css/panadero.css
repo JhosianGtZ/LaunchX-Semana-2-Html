@@ -1,0 +1,165 @@
+/* Montserrat Font  font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ddd;
+    width: 600px;
+    height: 100vh;
+}
+
+.sidebar-links {
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    font-weight: 600;
+    color: #000;
+    width: 100%;
+    text-align: left;
+    height: 60px;
+    line-height: 30px;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.sidebar a:hover {
+    color: #fff;
+    background-color: #000;
+    transition: all .5s ease-in-out;
+}
+
+.user-icon {
+    text-align: center;
+    margin-top: 10rem;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+
+.main-content {
+    margin: 2rem 5rem;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 350px;
+    height: 45px;
+    line-height: 45px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, .25);
+}
+
+.search-bar input {
+    margin-left: 5px;
+    height: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.dash-heading {
+    margin-top: 2rem;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.dash-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    height: 250px;
+    width: 600px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, .25);
+    background-color: #f2f2f2;
+
+}
+
+.dash-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.dash-icons p {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.table {
+    width: 100vh;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.table h2 {
+    margin-bottom: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .25);
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+td, th {
+    font-size: 15px;
+
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
